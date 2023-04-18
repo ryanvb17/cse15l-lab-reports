@@ -22,13 +22,13 @@ For ArrayExamples.java:
   }
   
   @test
-  public void testReverseInPlace() {
+  public void testReverseInPlace2() {
     int[] test = {1,1,1,1,1}
     ArrayExamples.reverseInPlace(test);
     assertArrayEquals(new int[]{1,1,1,1,1}, test);
   }
   
-SS of code running
+SS of code running (eclipse wasn't working so I'll do it for the late sub)
   
 The bug is that the array will write over the old values in the second half of the array with the new ones from the first half,
 which are often going to be different from what they were in the beginning.
