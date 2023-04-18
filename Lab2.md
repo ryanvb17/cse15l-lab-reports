@@ -2,10 +2,11 @@
 
 ##Part 1
 Code:
-add code
+![image](StringServerCode.png)
 
 Messages:
-add messages
+![image](message1.png)
+![image](message2.png)
 
 For both messages handleRequest is called, with the relevant field str and parameter url.
 For the first message str gets changed from "" to "Hi", while the second one changes it from "Hi" to "Hi\nWhat's up?".
