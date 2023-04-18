@@ -1,6 +1,6 @@
-#Lab Report 2
+# Lab Report 2
 
-##Part 1
+## Part 1
 Code:
 ![image](StringServerCode.png)
 
@@ -12,7 +12,7 @@ For both messages handleRequest is called, with the relevant field str and param
 For the first message str gets changed from "" to "Hi", while the second one changes it from "Hi" to "Hi\nWhat's up?".
 In the first message url is "http://localhost:3500/add-message?s=Hi" while the second has a url of "http://localhost:3500/add-message?s=What%27s%20up?".
 
-##Part 2
+## Part 2
 For ArrayExamples.java:
   @test
   public void testReverseInPlace() {
@@ -52,7 +52,7 @@ Using a copy of the array allows the values in the second-half of the array to s
   
   
 
-##Part 3
+## Part 3
 In lab 2 I learned how to build a basic server, which was fun to learn about. 
 I didn't expect to be able to change values so easily just by updating the url,
 so I was pretty excited to be able to mess around with that feature.
