@@ -14,6 +14,7 @@ In the first message url is "http://localhost:3500/add-message?s=Hi" while the s
 
 ## Part 2
 For ArrayExamples.java:
+```
   @test
   public void testReverseInPlace() {
     int[] test = {1,2,3,4,5}
@@ -27,26 +28,29 @@ For ArrayExamples.java:
     ArrayExamples.reverseInPlace(test);
     assertArrayEquals(new int[]{1,1,1,1,1}, test);
   }
-  
-SS of code running (eclipse wasn't working so I'll do it for the late sub)
+```
+ Symptom: ![image](testsSS.png)
   
 The bug is that the array will write over the old values in the second half of the array with the new ones from the first half,
 which are often going to be different from what they were in the beginning.
 
 Before:
+```
   static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = arr[arr.length - i - 1];
     }
   }
-
+```
 After:
+```
   static void reverseInPlace(int[] arr) {
   int[] copy = arr;
     for(int i = 0; i < arr.length; i += 1) {
       arr[i] = copy[copy.length - i - 1];
     }
   }
+```
 Using a copy of the array allows the values in the second-half of the array to switch with the old values from the first half.
   
   
