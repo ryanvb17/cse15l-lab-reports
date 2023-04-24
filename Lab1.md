@@ -11,6 +11,6 @@
 - Afterward, you will be prompted to enter your password, which will not show up when you are typing it to avoid revealing it
 ## Step 3: Trying some commands
 - next you should try to run some commands on the remote server
-- you can try using commands like cd, ls -a, or try ls -lat, which should look something like this: ![Image](ls -latSS.png)
+- you can try using commands like cd, ls -a, or try ls -lat, which should look something like this: ![Image](latSS.png)
 - after this, feel free to type exit into the terminal to return to using local commands
 
