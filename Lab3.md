@@ -54,7 +54,7 @@ for anything with ```med``` in its name.
 
 example 2:
 ```
-  $ find ./technical -type f -name "*11*"
+  $ find ./technical -type d -name "*11*"
 ```
 This example is once again a familiar one. Just like with the first example, we would expect this to only return
 the directory, and here's the output that it gives:
