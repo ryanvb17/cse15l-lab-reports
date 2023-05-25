@@ -5,3 +5,5 @@
 
 ## 2. [Servers and Bugs](https://ryanvb17.github.io/cse15l-lab-reports/Lab2.html)
 
+## 3. [Researching Commands](https://ryanvb17.github.io/cse15l-lab-reports/Lab3.html)
+
