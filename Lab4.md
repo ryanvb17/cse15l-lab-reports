@@ -19,7 +19,7 @@ another command in my recent history that tested the file.
 ### 4. Edit the code file to fix the failing test
 I then used ```<command-V>``` to paste ```vim ListExamples.java```, which I had pre-copied to my clipboard. 
 After this I used ```i``` to enter insert mode and then held ```<down>``` followed by ```<right>```
-which positioned my cursor in the perfect spot to use two keys, ```<delete> 2```, which fixed the code.
+which positioned my cursor in the perfect spot to use two keys, ```<delete> 2```, fixing the code.
 ![image](vim.png)
 
 ### 5. Run the tests, demonstrating that they now succeed
