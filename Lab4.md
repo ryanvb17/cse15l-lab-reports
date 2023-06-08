@@ -4,7 +4,7 @@
 ### 1. Log into ieng6
 ```<up> <enter>``` allowed me to access my ssh command as it was first in my local history,
 booting me into my ieng6 account.
-![image](activation.png)
+![image](ssh.png)
 
 ### 2. Clone your fork of the repository from your Github account
 From the remote terminal, I once again used ```<up> <enter>```, as 
